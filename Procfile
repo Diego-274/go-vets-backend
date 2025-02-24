@@ -1,1 +1,1 @@
-web: go-vets-backend
+web: go run main.go
