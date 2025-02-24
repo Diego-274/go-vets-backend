@@ -1,6 +1,6 @@
 module project/go-vets-backend
 
-go 1.20.0
+go 1.20
 
 require (
 	github.com/golang-jwt/jwt/v4 v4.5.1 // indirect
