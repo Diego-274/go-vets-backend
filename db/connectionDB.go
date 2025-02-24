@@ -10,7 +10,7 @@ import (
 
 var Ctx context.Context = context.TODO()
 var DB *mongo.Database
-var clientOptions = options.Client().ApplyURI("TU_CADENA_DE_CONEXIÓN")
+var clientOptions = options.Client().ApplyURI("mongodb+srv://uo284016:password_dam@clustergo.bjil1.mongodb.net/?retryWrites=true&w=majority&appName=ClusterGo")
 
 func ConnectDB() {
 	client, err := mongo.Connect(Ctx, clientOptions)
